@@ -1,9 +1,7 @@
 import tensorflow as tf
 from tensorflow.contrib.layers import fully_connected
+import numpy as np
 
-
-with tf.name_scope('dnn'):
-    fully_connected(activation_fn=)
 
 
 
@@ -61,3 +59,5 @@ sess.run(mean_error,{y:[32,33,36,39]})
 
 tensor2 = tf.reshape(y, tf.TensorShape([-1, 1]))
 tensor.get_shape().as_list()
+
+
